@@ -19,3 +19,17 @@ This project aims to develop a deep learning system to differentiate between chi
 
 `Python`  `Jupyter Notebook` `AWS Elastic Beanstalk`  `CI/CD Pipelines`  `Machine Learning Algorithms`  `Flask`  `Git`
 
+## Demo
+![Recorded_screen_1_V1](https://github.com/user-attachments/assets/700b4850-18d9-4841-9bfb-96c5e972a1f4)
+
+## Project Structure
+The project follows a modular structure, comprising several stages and pipelines, including:
+
+`stage_01_data_ingestion.py`: This stage handles data ingestion, including functions for downloading, extracting, and preprocessing the dataset to ensure it is ready for the subsequent stages.
+
+`stage_02_prepare_base_model.py`: In this stage, the base model for classification is prepared. It involves loading a pre-trained model, making necessary modifications, and setting it up for training.
+
+`stage_03_training.py`: This stage is responsible for model training. It encompasses functions for data augmentation, model training, and saving the trained model for future use.
+
+`stage_04_evaluation.py`: The evaluation stage focuses on assessing the performance of the trained model. It includes functions for loading the trained model, performing inference on test data, and calculating various evaluation metrics to gauge model effectiveness.
+

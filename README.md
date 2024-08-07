@@ -33,3 +33,5 @@ The project follows a modular structure, comprising several stages and pipelines
 
 `stage_04_evaluation.py`: The evaluation stage focuses on assessing the performance of the trained model. It includes functions for loading the trained model, performing inference on test data, and calculating various evaluation metrics to gauge model effectiveness.
 
+Additionally, the project was deployed using AWS services, leveraging CI/CD pipelines for automated deployments and EC2 instances for scalable model hosting and inference.
+
